@@ -1,0 +1,28 @@
+# fedmini
+
+Fedora minimal post-install helper to set up `niri` + Noctalia.
+
+This repository contains a single post-install script `install.sh` that
+configures a Fedora minimal system to use the Niri compositor with the
+Noctalia shell. The script performs repository setup, package installation,
+basic configuration, and writes user-level configs.
+
+Quick start
+
+- Review `INSTALL.md` for safety notes and prerequisites: [INSTALL.md](INSTALL.md)
+- To see usage/help for the script run:
+
+```bash
+bash install.sh --help
+```
+
+Important
+
+- Run the script as a regular user with sudo privileges (do not run as root).
+- The script makes system changes (installs packages, writes to `/etc`).
+- Read `INSTALL.md` before proceeding.
+
+License
+
+This repository contains only the installer script and documentation.
+Check the script header for provenance and licensing notes.
